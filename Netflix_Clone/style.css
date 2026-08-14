@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+*{/*
+
+    the  * is used as the universal
+
+    */
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(./asset/img/image.png);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.main .pic{
+    opacity: 0.5;
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 112px;
+}
+.text{
+    font-family: "Newsreader", serif;
+    color: white;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 23px;
+}
+.text> :first-child{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.text> :nth-child(2){
+    font-size:30px;
+    font-weight: 500;
+    text-align: center;
+}
+.start{
+    background-color: red;
+    padding: 0;
+}
+.line{
+    height: 11px;
+    background-color: rgb(62, 60, 63);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(176, 173, 173, 0.043);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 1px solid white;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-radius: 1px solid white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 9px 9px 9px;
+    border-radius: 1px solid black;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    padding: 9px 35px;
+    border-radius: 1px solid black;
+}
+.main input{
+    color: white;
+    border-radius: 1px solid black;
+    background-color: rgba(23,23,23,0.7);
+    padding: 9px 86px 9px 9px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.first{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+
+}
+.enjoy{
+    font-size: 50px;
+    font-weight: bold;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    max-width: 28vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.data{
+    font-size: 20px;
+    font-weight: 400;
+}
+.kids{
+    font-size: 50px;
+    font-weight: bold;
+}
+.send{
+      font-size: 20px;
+    font-weight: 400;
+}
